@@ -23,7 +23,7 @@ MonoBehaviour:
   reloadSceneWhenLoading: 0
   useJsonSerialization: 0
   sceneAttributes: []
-  actionListOnStart: {fileID: 0}
+  actionListOnStart: {fileID: 11400000, guid: 76762ff9f20ffc94d86480615bccecb2, type: 2}
   blackOutWhenSkipping: 0
   playerSwitching: 1
   player: {fileID: 3326041971450338047, guid: a250b579a13e7304a8b30202c88bb2f4, type: 3}
