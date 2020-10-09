@@ -155,7 +155,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1915
+    y: 2218
     width: 300
     height: 225
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -415,7 +415,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1466722086892945982}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 2087979763}
+  editingAnimEngine: {fileID: 449696377}
   isPlayer: 0
   animChar: {fileID: 2879098690477234563}
   clip: {fileID: 0}
@@ -1212,20 +1212,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &282019356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!1 &296728087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,6 +1250,55 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &307598044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Name: ActionMusic
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 17
+  title: Play music
+  description: Plays or queues music clips.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 3
+  skipActionActual: {fileID: 480994206}
+  linkedCutscene: {fileID: 1466722086892945982}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 974
+    width: 300
+    height: 273
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 3784626330624829097}
+  trackID: 1
+  trackIDParameterID: -1
+  fadeTime: 1.6
+  fadeTimeParameterID: -1
+  loop: 1
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 0
+  willWaitComplete: 0
+  musicAction: 2
+  loopingOverlapTime: 0
 --- !u!114 &329098817
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1399,8 +1434,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 3
-  skipAction: -1
-  skipActionActual: {fileID: 0}
+  skipAction: 1
+  skipActionActual: {fileID: 359956330}
   linkedCutscene: {fileID: 126315894229663739}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -1409,7 +1444,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 14
+    y: 297
     width: 300
     height: 112
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -1417,6 +1452,20 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 91759365718089429}
   parameterID: -1
   timeToPause: 0
+--- !u!114 &371643197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &409442586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1686,6 +1735,20 @@ MonoBehaviour:
   mouthClip2D: 
   mouthLayer: 0
   waitTimeOffset: 0
+--- !u!114 &449696377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &463988482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1792,7 +1855,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 974
+    y: 1277
     width: 300
     height: 172
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2036,7 +2099,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1673
+    y: 1976
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2142,20 +2205,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &615541104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &641496100
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2413,7 +2462,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1176
+    y: 1479
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -2860,7 +2909,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3346
+    y: 3649
     width: 300
     height: 225
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3081,7 +3130,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2849
+    y: 3152
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3217,6 +3266,55 @@ Transform:
   m_Father: {fileID: 1383355098}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &954966989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 387c24c00c16b447397110e033cf59f9, type: 3}
+  m_Name: ActionMusic
+  m_EditorClassIdentifier: 
+  id: 0
+  category: 17
+  title: Play music
+  description: Plays or queues music clips.
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  numSockets: 1
+  willWait: 0
+  endAction: 2
+  skipAction: 1
+  skipActionActual: {fileID: 359956330}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 253
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 91759365718089429}
+  trackID: 0
+  trackIDParameterID: -1
+  fadeTime: 0
+  fadeTimeParameterID: -1
+  loop: 1
+  isQueued: 0
+  resumeFromStart: 1
+  resumeIfPlayedBefore: 0
+  willWaitComplete: 0
+  musicAction: 0
+  loopingOverlapTime: 0
 --- !u!114 &982288720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3588,7 +3686,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 1418
+    y: 1721
     width: 300
     height: 225
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -3697,8 +3795,8 @@ MonoBehaviour:
   numSockets: 1
   willWait: 0
   endAction: 2
-  skipAction: 3
-  skipActionActual: {fileID: 480994206}
+  skipAction: 15
+  skipActionActual: {fileID: 307598044}
   linkedCutscene: {fileID: 0}
   linkedAsset: {fileID: 0}
   isEnabled: 1
@@ -3911,6 +4009,20 @@ MonoBehaviour:
   parameterValueParameterID: -1
   hideHead: 0
   doLoop: 0
+--- !u!114 &1092397310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &1094552981
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4938,7 +5050,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2352
+    y: 2655
     width: 300
     height: 225
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -5746,20 +5858,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turningStyle: 1
   isSpriteBased: 0
---- !u!114 &1583845168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &1602945536
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6022,7 +6120,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 3091
+    y: 3394
     width: 300
     height: 225
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -6420,7 +6518,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1466722086892945982}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 282019356}
+  editingAnimEngine: {fileID: 371643197}
   isPlayer: 0
   animChar: {fileID: 100762163}
   clip: {fileID: 0}
@@ -6877,7 +6975,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2607
+    y: 2910
     width: 300
     height: 212
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7238,7 +7336,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1466722086892945982}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 615541104}
+  editingAnimEngine: {fileID: 2068552963}
   isPlayer: 0
   animChar: {fileID: 100762163}
   clip: {fileID: 0}
@@ -7669,6 +7767,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turningStyle: 1
   isSpriteBased: 0
+--- !u!114 &2068552963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  turningStyle: 1
+  isSpriteBased: 0
 --- !u!114 &2074557148
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7711,7 +7823,7 @@ MonoBehaviour:
   parentActionListInEditor: {fileID: 1466722086892945982}
   parameterID: -1
   constantID: 0
-  editingAnimEngine: {fileID: 1583845168}
+  editingAnimEngine: {fileID: 1092397310}
   isPlayer: 0
   animChar: {fileID: 2879098690477234563}
   clip: {fileID: 0}
@@ -7743,20 +7855,6 @@ MonoBehaviour:
   parameterValueParameterID: -1
   hideHead: 0
   doLoop: 0
---- !u!114 &2087979763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3aeb4ee5eba44c0ab014fd7e3900911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  turningStyle: 1
-  isSpriteBased: 0
 --- !u!114 &2098708414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7970,7 +8068,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 14
-    y: 2170
+    y: 2473
     width: 300
     height: 152
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -7994,6 +8092,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
+  - {fileID: 954966989}
   - {fileID: 359956330}
   isSkippable: 1
   triggerTime: 0
@@ -8968,6 +9067,7 @@ MonoBehaviour:
   - {fileID: 932091207}
   - {fileID: 1671527478}
   - {fileID: 818127172}
+  - {fileID: 307598044}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
