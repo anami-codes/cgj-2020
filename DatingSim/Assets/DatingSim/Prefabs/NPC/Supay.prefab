@@ -408,7 +408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lockSorting: 0
   affectChildren: 1
-  followSortingMap: 1
+  followSortingMap: 0
   customSortingMap: {fileID: 0}
   offsetOriginal: 0
   livePreview: 0
@@ -422,7 +422,7 @@ Animator:
   m_GameObject: {fileID: 3319432924434677251}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ebc4b4091efbeb842be6ca852b3f476d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
