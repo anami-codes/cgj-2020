@@ -153,10 +153,10 @@ MonoBehaviour:
   musicStorages:
   - ID: 0
     audioClip: {fileID: 8300000, guid: acd8b29c6b013f84ba11e87a9853fe54, type: 3}
-    relativeVolume: 1
+    relativeVolume: 0.1
   - ID: 1
     audioClip: {fileID: 8300000, guid: e5caeaa3e2e26764bbd32eae1e11352b, type: 3}
-    relativeVolume: 1
+    relativeVolume: 0.6
   ambienceStorages: []
   volumeControl: 0
   musicMixerGroup: {fileID: 0}
