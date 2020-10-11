@@ -80,7 +80,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 12.28, y: 18.14}
+  m_Size: {x: 10.3, y: 20}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lockSorting: 0
   affectChildren: 1
-  followSortingMap: 0
+  followSortingMap: 1
   customSortingMap: {fileID: 0}
   offsetOriginal: 0
   livePreview: 0
@@ -141,7 +141,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 10.3, y: 20}
-    newSize: {x: 12.28, y: 18.14}
+    newSize: {x: 10.3, y: 20}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -584,7 +584,7 @@ MonoBehaviour:
   displayLineID: -1
   speechColor: {r: 1, g: 1, b: 1, a: 1}
   portraitIcon:
-    texture: {fileID: 0}
+    texture: {fileID: 2800000, guid: 795279463571abf46b7dfb41372a83c8, type: 3}
     isAnimated: 0
     numFrames: 1
     numRows: 1
